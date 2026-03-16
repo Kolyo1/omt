@@ -1,0 +1,44 @@
+body{
+    width : 800px;
+    background-color: aqua;
+}
+.div1{
+    background-color: brown;
+    text-align: center;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: violet;
+}
+
+h2{
+    color: rgb(182, 182, 79);
+}
+
+p{
+    color: blueviolet;
+}
+
+.div2{
+    background-color: blanchedalmond;
+    border-radius: 5px solid black;
+    text-align: right;
+    margin: 0 auto;
+    display: block;
+}
+
+.div2 ol, .div2 ul {
+    text-align: right;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+
+.roman{
+    list-style-type: upper-roman;
+}
+
+.div3{
+    background-color: cadetblue;
+}
