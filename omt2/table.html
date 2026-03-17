@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <link rel="stylesheet" href="table.css">
+</head>
+<body>
+    <div>
+    <table>
+        <caption>Списък1 </caption>
+
+        <tr class="tr1">
+        <th>Име, Фамилия</th>
+        <th>Пол</th>
+        <th>Възраст</th>
+        </tr>
+
+        <tr class="tr2">
+        <td class="td1">Иван Иванов</td>
+        <td class="td2">М</td>
+        <td class="td3">30</td>
+        </tr>
+
+        <tr class="tr1">
+        <td class="td1">Мария Петрова</td>
+        <td class="td2">Ж</td>
+        <td class="td3">25</td>
+        </tr>
+
+        <tr class="tr2">
+        <td class="td1">Георги Георгиев</td>
+        <td class="td2">М</td>
+        <td class="td3">40</td> 
+        </tr>
+
+    </table>
+    </div>
+
+    <div>
+    <table>
+        <caption>Списък 2</caption>
+
+        <tr class="tr1">
+        <th>Име, Фамилия</th>
+        <th>Пол</th>
+        <th>Възраст</th>
+        <th>Снимка</th>
+        </tr>
+
+        <tr class="tr2">
+        <td class="td1">Иван Иванов</td>
+        <td class="td2">М</td>
+        <td class="td3">30</td>
+        <td class="td4"><a href="1.html"><img src="1.png" width="5px"></a></td>
+        </tr>
+
+        <tr class="tr1">
+        <td class="td1">Мария Петрова</td>
+        <td class="td2">Ж</td>
+        <td class="td3">25</td>
+        <td class="td4"><a href="2.html"><img src="2.png" width="5px"></a></td>
+        </tr>
+
+        <tr class="tr2">
+        <td class="td1">Георги Георгиев</td>
+        <td class="td2">М</td>
+        <td class="td3">40</td> 
+        <td class="td4"><a href="3.html"><img src="3.png" width="5px"></a></td>
+        </tr>
+        
+    </table>
+    </div>
+
+    <div>
+    <table class="tb1">
+        <caption>Списък 3</caption>
+        <tr>
+        <th rowspan="12">April</th>
+        <td colspan="3">1-ва седмица</td>
+        </tr>
+        <tr>
+        <td>7</td>
+        <td>14</td>
+        <td>21</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">2-ра седмица</td>
+        </tr>
+        
+        <tr>
+            <td>8</td>
+            <td>15</td>
+            <td>22</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">3-та седмица</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>16</td>
+            <td>23</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">4-та седмица</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>8</td>
+            <td>24</td>
+        </tr>
+
+    </table>
+    </div>
+
+    <div class="div2">
+    <form>
+        <label for="username">Enter username:</label>
+        <input type="text" name="name" id="username">
+        <br>
+        <br>
+        <label for="password">Enter password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <br>
+
+        <br><br>
+        radio buttons:
+        <br>
+        <input type="radio" name="ram" value="ram" checked> 4GB
+        <br>
+        <input type="radio" name="ram" value="ram"> 8GB
+        <br>
+        <input type="radio" name="ram" value="ram"> 16GB
+        <br><br>
+        checkboxes:
+        <br><br>
+        <input type="checkbox" name="device" value="m" checked> Modern
+        <br>
+        <input type="checkbox" name="device" value="sb"> Sound Blaster   
+        <br>
+        <input type="checkbox" name="device" value="cd"> CD Rom    
+        <br><br>
+
+        Comments:
+        <br>
+        <textarea name="comments" id="comments" cols="20" rows="5">Tell us if something is missing...</textarea>
+
+
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+    </form>
+    </div>
+
+</body>
+</html>

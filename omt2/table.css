@@ -1,0 +1,58 @@
+body{
+    width: display;
+}
+
+
+.div1{
+    text-align: center;
+    margin: 0;
+    flex-wrap: nowrap;
+}
+
+table {
+    margin: 0 auto;
+    border-spacing: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.td1{
+    text-align: left;
+}
+
+.td2{
+    text-align: center;
+}
+
+.td3{
+    text-align: right;
+}
+
+.tr2{
+    background-color: pink;
+}
+
+.tr1{
+    background-color: yellow;
+}
+
+img {
+    width: 50px;
+    height: auto;
+}
+
+.tb1{
+    width: 300px;
+    text-align: center;
+}
+
+.div2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
